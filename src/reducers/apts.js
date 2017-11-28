@@ -19,7 +19,7 @@ const apts = (state=[], action) => {
             }
         }
     };
-    switch(action,type){
+    switch(action.type){
         case ADD_APT:
             return [
                 ...state,
